@@ -22,6 +22,9 @@ export default function DashboardPage() {
   const [uploadMsg, setUploadMsg] = useState<string>("");
   const [lastUploaded, setLastUploaded] = useState<string>("");
 
+  const [profile, setProfile] = useState<any | null>(null);
+  const [parsing, setParsing] = useState(false);
+
   // Extract preview state
   const [extracting, setExtracting] = useState(false);
   const [extractErr, setExtractErr] = useState<string>("");

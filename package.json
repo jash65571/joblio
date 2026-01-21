@@ -13,6 +13,7 @@
     "@supabase/ssr": "^0.8.0",
     "@supabase/supabase-js": "^2.91.0",
     "next": "16.1.4",
+    "openai": "^6.16.0",
     "pdf-parse": "^2.4.5",
     "pdfjs-dist": "^5.4.530",
     "pdfreader": "^3.0.8",
